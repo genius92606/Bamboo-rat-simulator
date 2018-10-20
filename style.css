@@ -3,4 +3,9 @@
   background-repeat: no-repeat;
   background-size:auto;
 }
+a{
+  position:relative;
+  font-size:25px;
+  left:75;
+}
 
