@@ -1,4 +1,6 @@
 .topic{
   background-image: url("picture/topic.png");
+  background-repeat: no-repeat;
+  background-size:auto;
 }
 
