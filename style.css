@@ -1,17 +1,21 @@
 body{
   background-image: url("picture/dark green.png");
   background-repeat: no-repeat;
+  background-size:cover;
 }
 
 .topic{
   background-image: url("picture/topic.png");
   background-repeat: no-repeat;
-  background-size:auto;
+  background-size:195px 80px;
+  position:relative;
+  left:20%;
+  top:-40;
 }
 a{
   position:relative;
-  font-size:25px;
-  left:75;
+  font-size:20px;
+  left:60;
   color:orange;
 }
 .iphone{
