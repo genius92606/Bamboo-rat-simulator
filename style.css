@@ -11,6 +11,7 @@ body{
   position:relative;
   left:20%;
   top:-40;
+  font-family: 'Mali', cursive;
 }
 a{
   position:relative;
@@ -19,7 +20,7 @@ a{
   color:orange;
 }
 .iphone{
-  position:relative;
+  position:absolute;
   left:60%;
 }
 
