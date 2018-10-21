@@ -23,5 +23,12 @@ a{
 .iphone{
   position:absolute;
   left:60%;
+  top:180px;
 }
+.first-text{
+  position:relative;
+  left:25%;
+  top:100;
+  font-size:20px;
+  font-family: 'Mali', cursive;
 
