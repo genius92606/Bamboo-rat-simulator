@@ -11,13 +11,14 @@ body{
   position:relative;
   left:20%;
   top:-40;
-  font-family: 'Mali', cursive;
 }
 a{
   position:relative;
   font-size:20px;
-  left:60;
+  left:52;
   color:orange;
+  font-family: 'Mali', cursive;
+
 }
 .iphone{
   position:absolute;
