@@ -1,3 +1,8 @@
+body{
+  background-image: url("picture/dark green.png");
+  background-repeat: no-repeat;
+}
+
 .topic{
   background-image: url("picture/topic.png");
   background-repeat: no-repeat;
