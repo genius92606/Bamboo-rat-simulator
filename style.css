@@ -1,7 +1,7 @@
 body{
   background-image: url("picture/note.png");
-  background-repeat: no-repeat;
   background-size:cover;
+  overflow-x:hidden;
 }
 
 .topic{
