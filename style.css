@@ -37,4 +37,11 @@ a{
   font-size:20px;
   font-family: 'Mali', cursive;
 }
+.para2{
+  position:absolute;
+  top:100%;
+  width:120%;
+  left:-8%;
+  height:170%;
+}
 
