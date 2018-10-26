@@ -11,17 +11,28 @@ body{
   position:relative;
   left:20%;
   top:20;
-  font-family:'Mali',cursive;
 }
-a{
+.main{
   position:relative;
   font-size:20px;
+  top:8;
   left:52;
   color:orange;
   font-family: 'Mali', cursive;
 
 }
-
+.right-top{
+  position:absolute;
+  right:30%;
+}
+.key-features{
+  position:relative;
+  right:30px;
+}
+.feedback{
+  position:relative;
+  right:-30px;
+}
 .iphone{
   position:absolute;
   left:60%;
@@ -39,7 +50,7 @@ a{
   font-size:20px;
   font-family: 'Mali', cursive;
 }
-.para2{
+.background2{
   position:absolute;
   top:100%;
   width:120%;
