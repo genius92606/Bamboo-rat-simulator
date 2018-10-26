@@ -4,13 +4,15 @@ body{
   overflow-x:hidden;
 }
 
-.main{
+.topic{
   background-image: url("picture/topic.png");
   background-repeat: no-repeat;
   background-size:195px 80px;
   position:relative;
   left:20%;
   top:20;
+}
+.main{
   position:relative;
   font-size:20px;
   left:52;
@@ -34,7 +36,7 @@ body{
   font-size:20px;
   font-family: 'Mali', cursive;
 }
-.para2{
+.background2{
   position:absolute;
   top:100%;
   width:120%;
