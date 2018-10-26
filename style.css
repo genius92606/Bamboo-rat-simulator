@@ -15,7 +15,6 @@ body{
 .main{
   position:relative;
   font-size:20px;
-  top:8;
   left:52;
   color:orange;
   font-family: 'Mali', cursive;
@@ -24,14 +23,17 @@ body{
 .right-top{
   position:absolute;
   right:30%;
+  top:0%;
 }
 .key-features{
   position:relative;
   right:30px;
+  top:33;
 }
 .feedback{
   position:relative;
   right:-30px;
+  top:-33;
 }
 .iphone{
   position:absolute;
@@ -53,8 +55,14 @@ body{
 .background2{
   position:absolute;
   top:100%;
-  width:120%;
-  left:-8%;
+  width:180%;
+  left:-35%;
   height:170%;
+}
+.second-text{
+  position:relative;
+  left:50%;
+  top:1000;
+  font-family: 'Mali', cursive;
 }
 
