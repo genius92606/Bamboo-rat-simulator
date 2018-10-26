@@ -24,10 +24,12 @@ body{
   position:absolute;
   right:30%;
   top:0%;
+  color:orange;
+  font-family: 'Mali',cursive;
 }
 .key-features{
   position:relative;
-  right:100px;
+  right:108px;
   top:33;
 }
 .feedback{
