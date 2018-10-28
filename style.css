@@ -85,3 +85,25 @@ body{
   position:relative;
   top: -10;
 }
+.beside{
+  position:fixed;
+  right:50px;
+  z-index:1;
+  top:280px;
+}
+#circle-one{
+  background-image:url("picture/black-circle.png");
+}
+#circle-two{
+  position:relative;
+  top:15;
+}
+#circle-three{
+  position:relative;
+  top:30;
+}
+#circle-four{
+  position:relative;
+  top:45;
+}
+
