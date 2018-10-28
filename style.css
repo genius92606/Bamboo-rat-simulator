@@ -45,7 +45,7 @@ body{
 .iphone{
   position:absolute;
   left:60%;
-  top:180px;
+  top:100px;
 }
 .iphone4{
   content:url("picture/iphone.png");
