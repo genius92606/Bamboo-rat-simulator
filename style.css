@@ -31,13 +31,16 @@ body{
   position:relative;
   right:108px;
   top:33;
-  cursor:auto;
+  cursor:pointer;
 }
 #feedback{
   position:relative;
   right:-80px;
   top:-33;
-  cursor:auto;
+  cursor:pointer;
+}
+#members{
+  cursor:pointer;
 }
 .iphone{
   position:absolute;
