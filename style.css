@@ -27,12 +27,12 @@ body{
   font-family: 'Mali',cursive;
   font-weight:800;
 }
-.key-features{
+#key-features{
   position:relative;
   right:108px;
   top:33;
 }
-.feedback{
+#feedback{
   position:relative;
   right:-80px;
   top:-33;
