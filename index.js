@@ -4,7 +4,7 @@ $("#key-features").click(function(){
   });
 $("#members").click(function(){
   $('html,body').animate({
-    scrollTop: 1800 },'slow');
+    scrollTop: 1860 },'slow');
   });
 $("#circle-one").click(function(){
   $(this).css("content","url(picture/black-circle.png)");
@@ -34,7 +34,7 @@ $("#circle-four").click(function(){
   $("#circle-three").css("content","url(picture/black-side.png)");
   $("#circle-one").css("content","url(picture/black-side.png)");
   });
-$(window).scroll(function(){
+/*$(window).scroll(function(){
   var scrollVal=$(this).scroll();
   if(scrollVal<=1150){
     $("#circle-one").css("content","url(picture/black-circle.png)");
@@ -48,4 +48,6 @@ $(window).scroll(function(){
     $("#circle-three").css("content","url(picture/black-side.png)");
     $("#circle-four").css("content","url(picture/black-side.png)");
   }
-});
+});*/
+$(".ui animated fade button").click(function(){
+  window.location= 'https://flaviocopes.com/how-to-redirect-using-javascript/';
