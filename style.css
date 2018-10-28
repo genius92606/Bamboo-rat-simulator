@@ -141,17 +141,37 @@ body{
 }
 .neko{
   content:url("picture/neko.png");
+  position:relative;
+  z-index:2;
+  width:250;
+  cursor:pointer;
 }
 .master{
   content:url("picture/master.png");
+  position:relative;
+  z-index:2;
+  width:250;
+  cursor:pointer;
 }
 .jarvis{
   content:url("picture/jarvis.png");
+  position:relative;
+  z-index:2;
+  width:250;
+  cursor:pointer;
 }
 .genius{
   content:url("picture/genius.png");
+  position:relative;
+  z-index:2;
+  width:250;
+  cursor:pointer;
 }
 .parson{
   content:url("picture/parson.png");
+  position:relative;
+  z-index:2;
+  width:250;
+  cursor:pointer;
 }
 
