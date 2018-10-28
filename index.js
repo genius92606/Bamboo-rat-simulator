@@ -8,7 +8,7 @@ $("#members").click(function(){
   });
 $("#feedback").click(function(){
   $('html,body').animate({
-    scrollTop: 2500 },'slow');
+    scrollTop: 2700 },'slow');
   });
 
 $("#circle-one").click(function(){
@@ -38,7 +38,7 @@ $("#circle-four").click(function(){
   $("#circle-two").css("content","url(picture/black-side.png)");
   $("#circle-three").css("content","url(picture/black-side.png)");
   $("#circle-one").css("content","url(picture/black-side.png)");
-  $('html,body').animate({scrollTop: 2500},'slow');
+  $('html,body').animate({scrollTop: 2700},'slow');
   });
 /*$(window).scroll(function(){
   var scrollVal=$(this).scroll();
