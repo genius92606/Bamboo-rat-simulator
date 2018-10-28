@@ -138,7 +138,6 @@ body{
   width:180%;
   left:-35%;
   height:170%;
-  color:#3b175d;
 }
 .title3{
   position:absolute;
@@ -147,6 +146,7 @@ body{
   z-index:3;
   font-size:50px;
   font-family: 'Mali', cursive;
+  color:#3b175d;
 }
 .people{
   position:absolute;
@@ -200,15 +200,18 @@ body{
   content:url("picture/note.png");
   position:absolute;
   widtj:100%;
-  top:2600;
+  top:2200;
 }
 .title4{
   position:absolute;
-  top:2800px;
-  left:45%;
+  top:2850px;
+  left:43%;
+  color:#3b175d;
+  font-size:40px;
+  font-family: 'Mali',cursive;
 }
 #feedback-button{
   position:absolute;
-  top:2840px;
-  left:40%;
+  top:2930px;
+  left:43.5%;
 }

@@ -6,6 +6,11 @@ $("#members").click(function(){
   $('html,body').animate({
     scrollTop: 1860 },'slow');
   });
+$("#feedback").click(function(){
+  $('html,body').animate({
+    scrollTop: 2500 },'slow');
+  });
+
 $("#circle-one").click(function(){
   $(this).css("content","url(picture/black-circle.png)");
   $("#circle-two").css("content","url(picture/black-side.png)");
@@ -33,6 +38,7 @@ $("#circle-four").click(function(){
   $("#circle-two").css("content","url(picture/black-side.png)");
   $("#circle-three").css("content","url(picture/black-side.png)");
   $("#circle-one").css("content","url(picture/black-side.png)");
+  $('html,body').animate({scrollTop: 2500},'slow');
   });
 /*$(window).scroll(function(){
   var scrollVal=$(this).scroll();
