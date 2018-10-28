@@ -196,4 +196,6 @@ body{
   left:38%;
   cursor:pointer;
 }
-
+.last-background{
+  content:url("picture/note.png");
+}
