@@ -89,7 +89,7 @@ body{
   color:#570757;
   font-weight:100;
 }
-.beside{
+.right-beside{
   position:fixed;
   right:50px;
   z-index:1;
@@ -97,24 +97,28 @@ body{
 }
 #circle-one{
   content:url("picture/black-side.png");
-  width:15px;
+  width:10px;
+  cursor:pointer;
 }
 #circle-two{
   content:url("picture/black-side.png");
   position:relative;
   top:15;
-  width:15px;
+  width:10px;
+  cursor:pointer;
 }
 #circle-three{
   content:url("picture/black-side.png");
   position:relative;
   top:30;
-  width:15px;
+  width:10px;
+  cursor:pointer;
 }
 #circle-four{
   content:url("picture/black-side.png");
   position:relative;
   top:45;
-  width:15px;
+  width:10px;
+  cursor:pointer;
 }
 
