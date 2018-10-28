@@ -198,4 +198,17 @@ body{
 }
 .last-background{
   content:url("picture/note.png");
+  position:absolute;
+  widtj:100%;
+  top:2600;
+}
+.title4{
+  position:absolute;
+  top:2800px;
+  left:45%;
+}
+#feedback-button{
+  position:absolute;
+  top:2840px;
+  left:40%;
 }

@@ -49,5 +49,3 @@ $("#circle-four").click(function(){
     $("#circle-four").css("content","url(picture/black-side.png)");
   }
 });*/
-$(".ui animated fade button").click(function(){
-  window.location= 'https://flaviocopes.com/how-to-redirect-using-javascript/';
