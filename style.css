@@ -47,10 +47,20 @@ body{
   left:60%;
   top:180px;
 }
+.iphone4{
+  content:url("picture/iphone.png");
+  width:600;
+  height:600;
+  position:relative;
+  right:20%;
+}
 .rat{
-  position:absolute;
-  left:15%;
-  top:20px;
+  content:url("picture/rat.PNG");
+  position:relative;
+  left:11%;
+  top:-491;
+  width:220;
+  height:396;
 }
 .first-text{
   position:relative;
@@ -92,7 +102,7 @@ body{
 .right-beside{
   position:fixed;
   right:50px;
-  z-index:1;
+  z-index:10;
   top:280px;
 }
 #circle-one{
@@ -121,4 +131,11 @@ body{
   width:10px;
   cursor:pointer;
 }
-
+.background3{
+  position:absolute;
+  z-index:1;
+  top:210%;
+  width:180%;
+  left:-35%;
+  height:170%;
+}
