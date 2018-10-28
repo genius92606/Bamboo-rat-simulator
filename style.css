@@ -92,17 +92,20 @@ body{
   top:280px;
 }
 #circle-one{
-  background-image:url("picture/black-circle.png");
+  background-image:url("picture/black-side.png");
 }
 #circle-two{
+  background-image:url("picture/black-side.png");
   position:relative;
   top:15;
 }
 #circle-three{
+  background-image:url("picture/black-side.png");
   position:relative;
   top:30;
 }
 #circle-four{
+  background-image:url("picture/black-side.png");
   position:relative;
   top:45;
 }
