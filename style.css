@@ -55,7 +55,7 @@ body{
 .first-text{
   position:relative;
   left:25%;
-  top:100;
+  top:180;
   font-size:20px;
   font-family: 'Mali', cursive;
 }
@@ -71,19 +71,23 @@ body{
 }
 .second-text{
   position:relative;
-  left:50%;
-  top:1000;
+  left:45%;
+  top:1100;
   font-family: 'Mali', cursive;
   font-size:20;
+  color:purple;
 }
 .second-text h1{
   font-family: 'Mali', cursive;
+  color:#3b175d;
 }
 .second-text h2{
   font-family: 'Mali', cursive;
   opacity: 0.7;
   position:relative;
   top: -10;
+  color:#570757;
+  font-weight:100;
 }
 .beside{
   position:fixed;
