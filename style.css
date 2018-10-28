@@ -96,21 +96,25 @@ body{
   top:280px;
 }
 #circle-one{
-  background-image:url("picture/black-side.png");
+  content:url("picture/black-side.png");
+  width:15px;
 }
 #circle-two{
-  background-image:url("picture/black-side.png");
+  content:url("picture/black-side.png");
   position:relative;
   top:15;
+  width:15px;
 }
 #circle-three{
-  background-image:url("picture/black-side.png");
+  content:url("picture/black-side.png");
   position:relative;
   top:30;
+  width:15px;
 }
 #circle-four{
-  background-image:url("picture/black-side.png");
+  content:url("picture/black-side.png");
   position:relative;
   top:45;
+  width:15px;
 }
 
