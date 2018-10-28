@@ -31,11 +31,13 @@ body{
   position:relative;
   right:108px;
   top:33;
+  cursor:auto;
 }
 #feedback{
   position:relative;
   right:-80px;
   top:-33;
+  cursor:auto;
 }
 .iphone{
   position:absolute;

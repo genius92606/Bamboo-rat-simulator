@@ -6,6 +6,6 @@ $("#key-features").mouseenter(function(){
   $(this).css("cursor","Pointer");
   });
 $("#key-features").mouseleave(function(){
-  $(this).css("cursor","default");
+  $(this).css("cursor","auto");
   });
 
