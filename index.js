@@ -15,7 +15,7 @@ $("#circle-two").click(function(){
   $("#circle-one").css("content","url(picture/black-side.png)");
   $("#circle-three").css("content","url(picture/black-side.png)");
   $("#circle-four").css("content","url(picture/black-side.png)");
-  $('html,body').animate({scrollTop: 1150}.'slow');
+  $('html,body').animate({scrollTop: 1150},'slow');
   });
 $("#circle-three").click(function(){
   $(this).css("content","url(picture/black-circle.png)");
