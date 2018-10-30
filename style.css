@@ -159,7 +159,7 @@ body{
   position:relative;
   z-index:2;
   width:250;
-  right:70%;
+  right:80%;
   cursor:pointer;
   }
 .master{
@@ -167,7 +167,7 @@ body{
   position:relative;
   z-index:2;
   width:250;
-  right:64.5%;
+  right:75%;
   cursor:pointer;
 }
 .jarvis{
@@ -175,7 +175,7 @@ body{
   position:relative;
   z-index:2;
   width:250;
-  right:59%;
+  right:70%;
   cursor:pointer;
 }
 .genius{
@@ -183,8 +183,8 @@ body{
   position:relative;
   z-index:2;
   width:250;
-  left:32.5%;
-  top:-406.5;
+  left:36%;
+  top:-0.1;
   cursor:pointer;
 }
 .parson{
@@ -192,8 +192,8 @@ body{
   position:relative;
   z-index:2;
   width:250;
-  top:-406.5;
-  left:38%;
+  top:-0.1;
+  left:75%;
   cursor:pointer;
 }
 .last-background{
