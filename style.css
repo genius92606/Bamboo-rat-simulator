@@ -180,7 +180,7 @@ body{
 }
 .genius{
   content:url("picture/genius.png");
-  position:relative;
+  position:absolute;
   z-index:2;
   width:250;
   left:36%;
@@ -189,7 +189,7 @@ body{
 }
 .parson{
   content:url("picture/parson.png");
-  position:relative;
+  position:absolute;
   z-index:2;
   width:250;
   top:-0.1;
