@@ -56,9 +56,9 @@ body{
 }
 .rat{
   content:url("picture/rat.PNG");
-  position:relative;
+  position:absolute;
   left:11%;
-  top:-491;
+  top:110;
   width:220;
   height:396;
 }
