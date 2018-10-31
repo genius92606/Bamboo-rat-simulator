@@ -103,6 +103,7 @@ ul{
   display: block;
   cursor: pointer;
   width: 10px;
+  margin: 10px;
 }
 #circle-one{
   content:url("picture/black-circle.png");
