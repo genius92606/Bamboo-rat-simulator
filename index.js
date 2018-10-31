@@ -8,7 +8,7 @@ $("#members").click(function(){
   });
 $("#feedback").click(function(){
   $('html,body').animate({
-    scrollTop: 2700 },'slow');
+    scrollTop: 2600 },'slow');
   });
 
 $("#circle-one").click(function(){
@@ -22,7 +22,7 @@ $("#circle-three").click(function(){
   $('html,body').animate({scrollTop: 1860},'slow');
   });
 $("#circle-four").click(function(){
-  $('html,body').animate({scrollTop: 2700},'slow');
+  $('html,body').animate({scrollTop: 2600},'slow');
   });
 $(window).scroll(function(){
   var scrollVal=$(this).scrollTop();
@@ -44,7 +44,7 @@ $(window).scroll(function(){
     $("#circle-three").css("content","url(picture/black-circle.png)");
     $("#circle-four").css("content","url(picture/black-side.png)");
   }
-  if(scrollVal>=2700){
+  if(scrollVal>=2600){
     $("#circle-one").css("content","url(picture/black-side.png)");
     $("#circle-two").css("content","url(picture/black-side.png)");
     $("#circle-three").css("content","url(picture/black-side.png)");
