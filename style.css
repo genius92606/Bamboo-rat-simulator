@@ -125,62 +125,30 @@ ul{
   left:-35%;
   height:170%;
 }
-.title3{
-  position:absolute;
-  top:1930;
-  left:42%;
-  z-index:3;
+.title{
   font-size:50px;
   font-family: 'Mali', cursive;
   color:#3b175d;
-}
-.people{
-  position:absolute;
-  top:2050;
   left:42%;
 }
-
-.neko{
-  content:url("picture/neko.png");
-  position:relative;
-  z-index:2;
-  width:250;
-  right:80%;
-  cursor:pointer;
-  }
-.master{
-  content:url("picture/master.png");
-  position:relative;
-  z-index:2;
-  width:250;
-  right:75%;
-  cursor:pointer;
+.title3{
+  top:1930;
+  z-index:3; 
 }
-.jarvis{
-  content:url("picture/jarvis.png");
-  position:relative;
-  z-index:2;
-  width:250;
-  right:70%;
-  cursor:pointer;
-}
-.genius{
-  content:url("picture/genius.png");
+.member{
   position:absolute;
-  z-index:2;
-  width:250;
-  left:36%;
-  top:-0.1;
-  cursor:pointer;
+  top:2000;
+  z-index: 2;
+  width: 100%;
+  text-align: center;
 }
-.parson{
-  content:url("picture/parson.png");
-  position:absolute;
-  z-index:2;
-  width:250;
-  top:-0.1;
-  left:75%;
-  cursor:pointer;
+.member_list{
+  margin: 0 auto;
+}
+.member_list img{
+  width: 15%;
+  cursor: pointer;
+  margin: 1%;
 }
 .last-background{
   content:url("picture/note.png");
@@ -192,9 +160,7 @@ ul{
   position:absolute;
   top:2850px;
   left:43%;
-  color:#3b175d;
-  font-size:40px;
-  font-family: 'Mali',cursive;
+  z-index: 3;
 }
 #feedback-button{
   position:absolute;
