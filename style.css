@@ -31,18 +31,10 @@ body{
 .right-top li{
   float: left;
   margin: 10;
+  cursor:pointer;
 }
 ul{
   list-style-type: none;
-}
-#key-features{
-  cursor:pointer;
-}
-#feedback{
-  cursor:pointer;
-}
-#members{
-  cursor:pointer;
 }
 .iphone{
   position:absolute;
@@ -107,31 +99,22 @@ ul{
   z-index:10;
   top:280px;
 }
+.right-beside img{
+  display: block;
+  cursor: pointer;
+  width: 10px;
+}
 #circle-one{
-  content:url("picture/black-side.png");
-  width:10px;
-  cursor:pointer;
+  content:url("picture/black-circle.png");
 }
 #circle-two{
   content:url("picture/black-side.png");
-  position:relative;
-  top:15;
-  width:10px;
-  cursor:pointer;
 }
 #circle-three{
   content:url("picture/black-side.png");
-  position:relative;
-  top:30;
-  width:10px;
-  cursor:pointer;
 }
 #circle-four{
   content:url("picture/black-side.png");
-  position:relative;
-  top:45;
-  width:10px;
-  cursor:pointer;
 }
 .background3{
   position:absolute;
