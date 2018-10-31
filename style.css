@@ -26,17 +26,19 @@ body{
   color:orange;
   font-family: 'Mali',cursive;
   font-weight:800;
+  font-size: 20;
+}
+.right-top li{
+  float: left;
+  margin: 10;
+}
+ul{
+  list-style-type: none;
 }
 #key-features{
-  position:relative;
-  right:108px;
-  top:33;
   cursor:pointer;
 }
 #feedback{
-  position:relative;
-  right:-80px;
-  top:-33;
   cursor:pointer;
 }
 #members{
