@@ -1,10 +1,18 @@
 body{
   background-image: url("picture/note.png");
-  background-size:cover;
+  background-size: cover;
   overflow-x:hidden;
+  font-family: 'Mali', cursive;
 }
 .page{
   height: 100%;
+  position: relative;
+}
+.pagebg{
+  height:120%;
+  overflow: hidden;
+  position: absolute;
+  width:100%;
 }
 .topic{
   background-image: url("picture/topic.png");
@@ -19,7 +27,6 @@ body{
   font-size:20px;
   left:52;
   color:orange;
-  font-family: 'Mali', cursive;
 }
 .right-top{
   position:absolute;
@@ -68,12 +75,6 @@ ul{
 .first-text h1{
   font-family: 'Mali', cursive;
 }
-.background2{
-  height:120%;
-  overflow: hidden;
-  position: relative;
-  width:100%;
-}
 #bg2{
   background: #bb6503;
   border-radius: 50%;
@@ -83,12 +84,12 @@ ul{
   width:1000%;
 }
 .second-text{
-  position: absolute;
-  left:45%;
-  top: 110%;
+  color:purple;
   font-family: 'Mali', cursive;
   font-size:20;
-  color:purple;
+  left:45%;
+  position: absolute;
+  top: 10%;
   z-index: 4;
 }
 .second-text h1{
@@ -127,12 +128,6 @@ ul{
 #circle-four{
   content:url("picture/black-side.png");
 }
-.background3{
-  height:120%;
-  overflow: hidden;
-  position: relative;
-  width:100%;
-}
 #circle1{
   width:750%;
   height:750%;
@@ -149,8 +144,7 @@ ul{
   position: absolute;
   border-radius: 50%;
   background: #995d18;
-  z-index: 2;
-  
+  z-index: 2; 
 }
 .title{
   font-size:50px;
@@ -164,7 +158,7 @@ ul{
 }
 .member{
   position:absolute;
-  top:2000;
+  top:20%;
   z-index: 2;
   width: 100%;
   text-align: center;
@@ -177,21 +171,23 @@ ul{
   cursor: pointer;
   margin: 1%;
 }
-.last-background{
-  content:url("picture/note.png");
-  position:absolute;
-  width:100%;
-  top:3000;
+#bg4{
+  background: url("picture/note.png");
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 2;
 }
 .title4{
   position:absolute;
-  top:2850px;
+  top:10%;
   left:43%;
-  z-index: 3;
+  z-index: 4;
 }
 #feedback-button{
   position:absolute;
-  top:2930px;
+  top:20%;
   left:43.5%;
   z-index: 10;
 }
