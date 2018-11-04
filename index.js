@@ -17,19 +17,19 @@ $(window).scroll(function(){
     $("#circle-three").css("content","url(picture/black-side.png)");
     $("#circle-four").css("content","url(picture/black-side.png)");
   }
-  if(scrollVal>=$('.page2').height()-20&& scrollVal< $('.page2').height()+ 20){
+  if(scrollVal>=$('.page1').height() - 20){
     $("#circle-one").css("content","url(picture/black-side.png)");
     $("#circle-two").css("content","url(picture/black-circle.png)");
     $("#circle-three").css("content","url(picture/black-side.png)");
     $("#circle-four").css("content","url(picture/black-side.png)");
   }
-  if(scrollVal>=$('.page2').height() + $('.page3').height()-20 && scrollVal< $('.page2').height() + $('.page3').height()+20){
+  if(scrollVal>=$('.page1').height() + $('.page2').height() - 20){
     $("#circle-one").css("content","url(picture/black-side.png)");
     $("#circle-two").css("content","url(picture/black-side.png)");
     $("#circle-three").css("content","url(picture/black-circle.png)");
     $("#circle-four").css("content","url(picture/black-side.png)");
   }
-  if(scrollVal>=2600){
+  if(scrollVal>=$('.page1').height() + $('.page2').height() +  $('.page3').height() -20){
     $("#circle-one").css("content","url(picture/black-side.png)");
     $("#circle-two").css("content","url(picture/black-side.png)");
     $("#circle-three").css("content","url(picture/black-side.png)");
