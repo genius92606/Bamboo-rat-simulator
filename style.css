@@ -3,7 +3,9 @@ body{
   background-size:cover;
   overflow-x:hidden;
 }
-
+.page{
+  height: 100%;
+}
 .topic{
   background-image: url("picture/topic.png");
   background-repeat: no-repeat;
@@ -66,20 +68,26 @@ ul{
 .first-text h1{
   font-family: 'Mali', cursive;
 }
+.page2 div{
+  /*position: absolute;*/
+} 
 .background2{
-  position:absolute;
-  top:100%;
-  width:180%;
-  left:-35%;
-  height:170%;
+  position: relative;
+  background: #bb6503;
+  border-radius: 50%;
+  width:1000%;
+  height:1000%;
+  left: -500%;
+  z-index: 2;
 }
 .second-text{
-  position:relative;
+  position: absolute;
   left:45%;
-  top:1100;
+  top: 110%;
   font-family: 'Mali', cursive;
   font-size:20;
   color:purple;
+  z-index: 4;
 }
 .second-text h1{
   font-family: 'Mali', cursive;
@@ -117,13 +125,32 @@ ul{
 #circle-four{
   content:url("picture/black-side.png");
 }
+.page3 div{
+  position: absolute;
+}
 .background3{
-  position:absolute;
-  z-index:1;
-  top:210%;
-  width:180%;
-  left:-35%;
-  height:170%;
+  width:100%;
+  height:100%;
+  z-index: 2;
+}
+#circle1{
+  width:750%;
+  height:750%;
+  left: -400%;
+  position: absolute;
+  border-radius: 50%;
+  background: #995d18;
+  z-index: 2;
+}
+#circle2{
+  width:500%;
+  height:500%;
+  right: -300%;
+  position: absolute;
+  border-radius: 50%;
+  background: #995d18;
+  z-index: 2;
+  
 }
 .title{
   font-size:50px;
