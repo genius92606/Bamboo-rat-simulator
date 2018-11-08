@@ -1,193 +1,214 @@
+html{
+  font-size: 16px;
+}
 body{
   background-image: url("picture/note.png");
   background-size: cover;
+  background-color: white;
   overflow-x:hidden;
-  font-family: 'Mali', cursive;
+  font-size: 1.5rem;
+}
+.content{
+  font-size: 1rem;
+  z-index: 10;
 }
 .page{
-  height: 100%;
   position: relative;
+  height: 750px;
 }
 .pagebg{
   height:120%;
+  position: relative;
   overflow: hidden;
-  position: absolute;
   width:100%;
 }
-.topic{
-  background-image: url("picture/topic.png");
-  background-repeat: no-repeat;
-  background-size:195px 80px;
-  position:relative;
-  left:20%;
-  top:20;
-}
-.main{
-  position:relative;
-  font-size:20px;
-  left:52;
-  color:orange;
-}
-.right-top{
-  position:absolute;
-  right:30%;
-  top:0%;
-  color:orange;
-  font-family: 'Mali',cursive;
-  font-weight:800;
-  font-size: 20;
-}
-.right-top li{
-  float: left;
-  margin: 10;
-  cursor:pointer;
+.final_page .pagebg{
+  height:100%;
 }
 ul{
   list-style-type: none;
 }
-.iphone{
-  position:absolute;
-  left:60%;
-  top:100px;
+a,p,h1,h2,li{
+  font-family: 'Mali', cursive;
 }
-.iphone4{
+.orange{
+  color:orange;
+}
+/*PC website general css*/
+@media only screen and (min-width: 768px){
+  body{
+    font-size: 2rem;
+  }
+  .content{
+    font-size: 1.5rem;
+  }
+  .page{
+    height: 100%;
+  }
+  h1{
+    font-size: 2rem;
+  }
+}
+/*PC website general css*/
+
+/*page1*/
+.navbar{
+  width: 100%;  
+  text-align: center;
+  height: 150px;
+  margin-top: 10px;
+}
+#home_link{
+  background-image: url("picture/topic.png");
+  background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
+  width: 255px;
+}
+#nav_top {
+  font-size: 1rem;
+}
+#nav_top li{
+  margin: 10;
+  float: left;
+  cursor:pointer;
+}
+/*PC website upper nav bar*/
+@media only screen and (min-width: 768px){
+  .navbar{
+    height: 208px;
+  }
+  #home_link{
+    width: 340px;
+    height: 140px;
+    float: left; 
+  }
+  #nav_top{
+    margin-right: 100px;
+    float: right;
+    font-size: 1.5rem;
+  }
+}/*min-width: 768px*/
+
+/*Cell phone page1*/
+#game_link{
+  position: relative;
+  padding: 0px;
+  width:100%;
+}
+#iphone{
   content:url("picture/iphone.png");
-  width:600;
-  height:600;
-  position:relative;
-  right:20%;
+  height: auto;
+  left: 70px;
+  position: absolute;
+  width:225px;
 }
-.rat{
+#rat{
   content:url("picture/rat.PNG");
-  position:absolute;
-  left:11%;
-  top:110;
-  width:220;
-  height:396;
+  height:auto;
+  left:150px;
+  position: absolute;
+  top:41px;
+  width:64px;
 }
 .first-text{
-  position:relative;
-  left:25%;
-  top:180;
-  font-size:20px;
-  font-family: 'Mali', cursive;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
-.first-text h1{
-  font-family: 'Mali', cursive;
+#click_play{
+  float: left;
 }
+/*PC website page1 content*/
+@media only screen and (min-width: 768px){
+  #game_link{
+    left:50%;
+    float: right;
+  }
+  #iphone{
+    width:600;
+    height:600;
+  }
+  #rat{
+    left:258px;
+    top:110;
+    width:220;
+    height:396;
+  }
+}/*min-width: 768px*/
+/*page1*/
+
+/*page2*/
 #bg2{
-  background: #bb6503;
+  background: #c78841;
+  border-block-end-style: solid;
   border-radius: 50%;
   height:1000%;
   left: -500%;
   position: absolute;
   width:1000%;
 }
-.second-text{
+.content2{
   color:purple;
-  font-family: 'Mali', cursive;
-  font-size:20;
-  left:45%;
   position: absolute;
+  padding-left: 20px;
   top: 10%;
-  z-index: 4;
+  width: 80%;
 }
-.second-text h1{
-  font-family: 'Mali', cursive;
+.content2 h1{
   color:#3b175d;
 }
-.second-text h2{
-  font-family: 'Mali', cursive;
-  opacity: 0.7;
-  position:relative;
+.content2 h2{
   top: -10;
   color:#570757;
-  font-weight:100;
 }
-.right-beside{
-  position:fixed;
-  right:50px;
-  z-index:10;
-  top:280px;
-}
-.right-beside img{
-  display: block;
-  cursor: pointer;
-  width: 10px;
-  margin: 10px;
-}
-#circle-one{
-  content:url("picture/black-circle.png");
-}
-#circle-two{
-  content:url("picture/black-side.png");
-}
-#circle-three{
-  content:url("picture/black-side.png");
-}
-#circle-four{
-  content:url("picture/black-side.png");
-}
-#circle1{
-  width:750%;
+/*PC website page2 content*/
+@media only screen and (min-width: 768px){
+  .content2{
+    left: 30%;
+  }
+}/*min-width: 768px*/
+/*page2*/
+
+/*page3*/
+#bg31{
+  border-radius: 50%;
+  background: #995d18;
   height:750%;
   left: -400%;
   position: absolute;
+  width:750%;
+}
+#bg32{
   border-radius: 50%;
   background: #995d18;
-  z-index: 2;
-}
-#circle2{
-  width:500%;
   height:500%;
-  right: -300%;
   position: absolute;
-  border-radius: 50%;
-  background: #995d18;
-  z-index: 2; 
+  right: -300%;
+  width:500%;
 }
-.title{
-  font-size:50px;
-  font-family: 'Mali', cursive;
-  color:#3b175d;
-  left:42%;
-}
-.title3{
-  top:1930;
-  z-index:3; 
-}
-.member{
-  position:absolute;
-  top:20%;
-  z-index: 2;
+.content3{
+  position: absolute;
   width: 100%;
   text-align: center;
+  top: 100px;
 }
 .member_list{
   margin: 0 auto;
 }
 .member_list img{
-  width: 15%;
+  width: 30%;
   cursor: pointer;
   margin: 1%;
 }
-#bg4{
-  background: url("picture/note.png");
-  background-size: 100% 100%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 2;
-}
-.title4{
-  position:absolute;
-  top:10%;
-  left:43%;
-  z-index: 4;
-}
-#feedback-button{
-  position:absolute;
-  top:20%;
-  left:43.5%;
-  z-index: 10;
-}
+
+/*PC website page3*/
+@media only screen and (min-width: 768px){
+  .content3{
+    top: 20%;
+  }
+  .member_list img{
+    width: 15%;
+  }
+}/*min-width: 768px*/
+/*page3*/

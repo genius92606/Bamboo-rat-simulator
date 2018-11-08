@@ -1,4 +1,4 @@
-$("#key-features").click(function(){
+$("#features").click(function(){
   $('html,body').animate({scrollTop:$('.page1').height()},'slow');});
 $("#members").click(function(){
   $('html,body').animate({scrollTop:$('.page1').height() + $('.page2').height()},'slow');});

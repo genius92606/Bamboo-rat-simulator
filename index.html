@@ -5,93 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <style>
-    a {
-      text-decoration: none
-    }
-  </style>
   <link href="https://fonts.googleapis.com/css?family=Mali:500i" rel="stylesheet">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.13/semantic.js"></script>
   <title>Bamboo rat simulator</title>
 </head>
 
 <body>
-  <div class="right-beside">
-    <img id="circle-one"></img>
-    <img id="circle-two"></img>
-    <img id="circle-three"></img>
-    <img id="circle-four"></img>
-  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="index.js"></script>
+
   <div class="page page1">
-    <!--page1-->
-    <div class="topic">
-      <!--top bar-->
-      <a class="main" href="index.html">&nbsp;Bamboo
-        <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rat
-        <br>Simulator</a>
-      <div class="right-top">
+    <div class="navbar up_bar">
+      <!--navbar-->
+      <div id="home_link">
+        <a class="home_name orange" href="index.html">&nbsp;Bamboo
+          <br>&nbsp;&nbsp;&nbsp;&nbsp;Rat
+          <br>Simulator</a>
+      </div>
+      <div id="nav_top">
         <ul>
           <li>
-            <p id="key-features">Key features</p>
+            <p class="orange" id="features">Features</p>
           </li>
           <li>
-            <p id="members">Members</p>
+            <p class="orange" id="members">Members</p>
           </li>
           <li>
-            <p id="feedback">Feedback</p>
+            <p class="orange" id="feedback">Feedback</p>
           </li>
         </ul>
       </div>
     </div>
-    <!--top bar-->
-    <div class="first-text">
-      <h1>Bamboo rat simulator</h1>
-      <p>In the game, you will become a bamboo rat,
-        <br>try to survive in the strict enviroment!
-        <br>Their gonna be a lot of severe situation
-        <br>waiting for u!
-        <br>Finally, find out all methods of death^^
-      </p>
-    </div>
-    <div class="iphone">
-      <a href="http://luffy.ee.ncku.edu.tw:11935">
-        <img class="iphone4"></img>
-        <img class="rat"></img>
-      </a>
+    <!--navbar-->
+    <div class="content cont1">
+      <div class="first-text">
+        <h1>Bamboo rat simulator</h1>
+        <p>In the game, you will become a bamboo rat, try to survive in the strict enviroment!
+          <br>Their gonna be a lot of severe situation waiting for u!
+          <br>Finally, find out all methods of death^^
+        </p>
+        <div id="game_link">
+          <a href="http://luffy.ee.ncku.edu.tw:11935">
+            <p id="click_play">Click to Play !!</p>
+            <img id="iphone"></img>
+            <img id="rat"></img>
+          </a>
+        </div>
+      </div>
     </div>
   </div>
-  <!--page1-->
+
+  <!--page2-->
   <div class="page page2">
-    <!--page2-->
+    <!--background container-->
     <div class="pagebg background2">
-      <!--background container-->
       <div id="bg2"></div>
     </div>
-    <div class="second-text">
-      <h1 class="key">Key features</h1>
-      <h2 class="version">version 3.87(31.10.2018)</h2>
-      <ul class="second-p">
-        <li>Suffer from the extreme enviroment.</li>
-        <br>
-        <li>Grow bigger and become stronger to challenge your owner.</li>
-        <br>
-        <li>Explore your way to choose the best option everyday
-          <br>to balance your ability value.
-        </li>
-        <br>
-        <li>As the game master, you can set up the difficulties.</li>
-    </div>
-  </div>
-  <!--page2-->
-  <div class="page page3">
-    <!--page3-->
-    <div class="pagebg background3">
-      <!--background container-->
-      <div id="circle1"></div>
-      <div id="circle2"></div>
+    <div class="content content2">
+      <div>
+        <h1 class="key">Key features</h1>
+        <h2 class="version">version 3.87(31.10.2018)</h2>
+        <ul class="second-p">
+          <li>Suffer from the extreme enviroment.</li>
+          <br>
+          <li>Grow bigger and become stronger to challenge your owner.</li>
+          <br>
+          <li>Explore your way to choose the best option everyday
+            <br>to balance your ability value.
+          </li>
+          <br>
+          <li>As the game master, you can set up the difficulties.</li>
+      </div>
+
     </div>
 
-    <div class="member">
+  </div>
+  <!--page2-->
+
+  <!--page3-->
+  <div class="page page3 final_page">
+    <!--background container-->
+    <div class="pagebg background3">
+      <div id="bg31"></div>
+      <div id="bg32"></div>
+    </div>
+    <div class="content content3">
       <h1 class="title3">Members</h1>
       <div class="member_list">
         <a href="https://www.facebook.com/nekosaikou.chengyeh?fref=gs&dti=495761437500920&hc_location=group_dialog">
@@ -110,21 +108,18 @@
           <img class="parson" src="./picture/parson.png">
         </a>
       </div>
+      <footer>
+        <h1>Feedback</h1>
+        <a id="feedback-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdjw0WfGe6J8xnDNYcIEjpjMMrhA-WVRPYkoispwr4lSYFhQg/viewform?usp=pp_url">
+          <div class="ui animated fade button" tabindex="0">
+            <div class="visible content">Click for feedback!!</div>
+            <div class="hidden content">commit~</div>
+          </div>
+        </a>
+      </footer>
     </div>
   </div>
   <!--page3-->
-  <div class="page page4">
-    <div class="pagebg background4"><!--background container-->
-      <div id="bg4"></div>
-    </div>
-    <h1 class="title4">Feedback</h1>
-    <a id="feedback-button" href="https://docs.google.com/forms/d/e/1FAIpQLSdjw0WfGe6J8xnDNYcIEjpjMMrhA-WVRPYkoispwr4lSYFhQg/viewform?usp=pp_url">
-      <div class="ui animated fade button" tabindex="0">
-        <div class="visible content">Click for feedback!!</div>
-        <div class="hidden content">commit~</div>
-      </div>
-    </a>
-  </div>
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="index.js"></script>
 </body>
