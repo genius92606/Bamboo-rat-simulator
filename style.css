@@ -102,6 +102,7 @@ a,p,h1,h2,li{
   left: 70px;
   position: absolute;
   width:225px;
+  z-index: 1;
 }
 #rat{
   content:url("picture/rat.PNG");
@@ -110,6 +111,7 @@ a,p,h1,h2,li{
   position: absolute;
   top:41px;
   width:64px;
+  z-index: 2;
 }
 .first-text{
   width: 80%;
